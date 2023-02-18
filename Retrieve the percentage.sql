@@ -1,0 +1,28 @@
+SELECT 
+studentbasicinformation.StudentName,
+studentbasicinformation.StudentSurname,
+studentbasicinformation.StudentRollNo, 
+studentbasicinformation.StudentAddress,
+studentbasicinformation.StudentGender, 
+studentbasicinformation.StudentAge,
+studentbasicinformation.StudentCity,
+studentsubjectinformation.StudentMarksPercentage,
+subjectscholarshipinformation.ScholarshipAmount
+FROM 
+studentbasicinformation
+INNER JOIN 
+studentsubjectinformation
+INNER JOIN 
+subjectscholarshipinformation
+ON 
+studentbasicinformation.StudentRollNo = studentsubjectinformation.StudentRollNo 
+AND
+studentbasicinformation.StudentRollNo = subjectscholarshipinformation.StudentRollNo
+WHERE 
+StudentMarksPercentage = (SELECT MAX(StudentMarksPercentage)
+FROM 
+StudentSubjectInformation)
+AND
+ScholarshipAmount = (SELECT MAX(ScholarshipAmount) 
+FROM
+SubjectScholarshipInformation);

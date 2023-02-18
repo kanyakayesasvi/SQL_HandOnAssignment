@@ -1,0 +1,12 @@
+INSERT INTO studentbasicinformation VALUES ('John', 'S', 1, 'Residence in Telangana', 'M', 19, 'Hyderbad');
+INSERT INTO studentbasicinformation VALUES ('Jim', 'Kim', 2, 'Residence in Andhrapradesh', 'M', 20, 'Chittor');
+INSERT INTO studentbasicinformation VALUES ('Roman', 'R', 3, 'Residence in Telangana, India', 'M', 19, 'Khammam');
+INSERT INTO studentbasicinformation VALUES ('Bailey', 'Roy', 4, 'Residence in Telangana', 'F', 21, 'Secunderbad');
+INSERT INTO studentbasicinformation VALUES ('Becky', 'L', 5, 'Residence in Andhrapradesh', 'F', 20, 'Nellore');
+INSERT INTO studentbasicinformation VALUES ('Ramu', 'Singh', 6, 'Residence in Telangana', 'M', 19, 'Hyderbad');
+INSERT INTO studentbasicinformation VALUES ('Kiran', 'Kumar', 7, 'Residence in Andhrapradesh', 'M', 20, 'Nellore');
+INSERT INTO studentbasicinformation VALUES ('Sony', 'Yadav', 8, 'Residence in Mumbai', 'F', 19, 'Mumbai');
+INSERT INTO studentbasicinformation VALUES ('Sakshi', 'Singh', 9, 'Residence in Uttar Pradesh', 'F', 21, 'Lucknow');
+INSERT INTO studentbasicinformation VALUES ('Indra', 'Kiran', 10, 'Residence in Andhrapradesh', 'M', 21, 'Nellore');
+INSERT INTO studentbasicinformation VALUES ('Vikram', 'R', 11, 'Residence in Andhrapradesh', 'M', 20, 'Guntur');
+INSERT INTO studentbasicinformation VALUES ('Sam', 'Jim', 13, 'Residence in Andhra Pradesh', 'F', 21, 'Gudur');

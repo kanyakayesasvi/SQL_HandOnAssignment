@@ -1,0 +1,1 @@
+SELECT * FROM subjectscholarshipinformation WHERE ScholarshipAmount>5000;

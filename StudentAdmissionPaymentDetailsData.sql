@@ -1,0 +1,11 @@
+INSERT INTO StudentAdmissionPaymentDetails VALUES (1, 5000, 5000, 'Online','UPI', 'ANDB', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (2, 7000, 3000, 'Online','UPI', 'SBI', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (3, 6000, 4000, 'Offline','Cash', 'ANDB', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (4, 5000, 5000, 'Online','Debit Card', 'CB', 'Fail');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (5, 4000, 6000, 'Offline','Check', 'SBI', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (6, 5500, 4500, 'Online','UPI', 'UN', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (7, 9000, 1000, 'Online','Credit Card', 'HDFC', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (8, 2000, 8000, 'Offline','DD', 'Axis', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (9, 8000, 2000, 'Online','UPI', 'HDFC', 'Fail');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (10, 9500, 500, 'Offline','Check', 'Axis', 'Success');
+INSERT INTO StudentAdmissionPaymentDetails VALUES (11, 7500, 2500, 'Online','Net Banking', 'HDFC', 'Success');
